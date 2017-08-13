@@ -1,0 +1,39 @@
+{
+  "name": "react-rosa",
+  "version": "0.0.1",
+  "description": "React bindings for rosa-client",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "prepare": "npm run build",
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zoil/react-rosa.git"
+  },
+  "keywords": [
+    "rosa",
+    "rosa-client",
+    "react",
+    "live",
+    "websocket"
+  ],
+  "author": "Zoltan Jano <zoltan.jano@gmail.com> (https://github.com/zoil)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zoil/react-rosa/issues"
+  },
+  "homepage": "https://github.com/zoil/react-rosa#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  },
+  "dependencies": {
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "rosa-client": "^0.0.1"
+  }
+}
