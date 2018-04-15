@@ -13,13 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/zoil/react-rosa.git"
   },
-  "keywords": [
-    "rosa",
-    "rosa-client",
-    "react",
-    "live",
-    "websocket"
-  ],
+  "keywords": ["rosa", "rosa-client", "react", "live", "websocket"],
   "author": "Zoltan Jano <zoltan.jano@gmail.com> (https://github.com/zoil)",
   "license": "MIT",
   "bugs": {
@@ -30,22 +24,18 @@
     "@types/invariant": "^2.2.29",
     "@types/lodash.isequal": "^4.5.2",
     "@types/prop-types": "^15.5.2",
-    "@types/react": "^16.0.35",
-    "@types/react-dom": "^16.0.3",
     "rosa-shared": "^0.0.1",
     "ts-node": "^4.1.0",
     "typescript": "^2.6.2"
   },
   "dependencies": {
-    "create-react-class": "^15.6.3",
     "expose-loader": "^0.7.4",
     "invariant": "^2.2.4",
     "lodash.isequal": "^4.5.0",
     "node-static": "^0.7.9",
     "prop-types": "^15.6.1",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "react-redux": "^5.0.7",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
     "rosa-client": "*"
   }
 }

@@ -9,9 +9,8 @@ import {
   ActionDefinition
 } from "rosa-client";
 import { MapQueriesToProps } from "../types/queries";
-import { MapActionsToProps, ActionFunction } from "../types/actions";
+import { MapActionsToProps } from "../types/actions";
 import { ConnectOptions } from "../types/connect";
-import { QueryId } from "rosa-shared";
 import { diffObjects } from "../utils/diff-objects";
 
 let hotReloadingVersion = 0;

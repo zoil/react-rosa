@@ -3,7 +3,7 @@ import * as PropTypes from "prop-types";
 import { RosaClient } from "rosa-client";
 
 export interface Props {
-  store: RosaClient;
+  store: RosaClient | any;
 }
 
 export class Provider extends React.Component<Props> {
